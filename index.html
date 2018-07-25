@@ -1,0 +1,69 @@
+<html>
+
+<head>
+  <title>Cruitive</title>
+</head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: url("forest2.jpg");
+    background-size: cover;
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  #bg-color {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #31a7c6ee 20%, #3bc1b0ee 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @keyframes title-animation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  #text {
+    font-size: 92px;
+    font-weight: 100;
+    margin: 0;
+    opacity: 1;
+    animation: title-animation 2s ease;
+  }
+
+  #mail {
+    font-size: 24px;
+    font-weight: 100;
+    margin: 0;
+    opacity: 1;
+    font-style: cursive;
+    animation: title-animation 2s ease;
+
+  }
+
+  #text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+</style>
+
+<body>
+  <div id="bg-color">
+    <div id="text-container">
+      <p id="text">soon</p>
+      <h1 id="mail">dev@cruitive.com</h1>
+    </div>
+  </div>
+</body>
+
+</html>
